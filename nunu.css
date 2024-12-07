@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8E0E0; /* Light pink background */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Arial', sans-serif;
+    color: #D5006C; /* Barbie pink */
+  }
+  
+  header {
+    background-color: #FF99CC; /* Soft light pink for header */
+    color: #FFF; /* White text in the header */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem; /* Large header text */
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin-top: 40px;
+  }
+  
+  /* Welcome Text */
+  #welcome {
+    font-size: 1.8rem;
+    color: #D5006C; /* Barbie pink */
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  /* Contact Information */
+  footer {
+    background-color: #FF66B2; /* Another shade of pink for the footer */
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #FFD1DC; /* Light pink hover effect */
+  }
+  
+  /* Button Style */
+  button {
+    background-color: #FF33B2; /* Barbie pink button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF1A8C; /* Darker pink on hover */
+  }
+  
+  /* Layout for Product Section (for when you add product images) */
+  .product {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product h3 {
+    color: #D5006C; /* Barbie pink for product titles */
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  
+  .product p {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Additional Styling (for mobile responsiveness) */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    #welcome {
+      font-size: 1.5rem;
+    }
+  
+    .product {
+      width: 90%; /* Make product images more mobile-friendly */
+    }
+  }
